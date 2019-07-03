@@ -57,7 +57,37 @@ img {
   margin-right: auto;
 }
 
+/* .s-m {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+} */
 
+.s-m a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #152732;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 20px;
+}
+
+.s-m a:hover{
+  background: aqua;
+}
+
+.s-m a i {
+  transition: 0.4s;
+}
+.s-m a:hover > i{
+  transform: scale(1,6) rotate(25deg);
+}
 
 .carousel {
   border:0;
