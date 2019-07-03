@@ -739,7 +739,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .center {
     margin: auto;
     width: 60%;
-    border: 3px solid #0000ff;
+    border: 3px solid transparent;
     padding: 10px;
   }
   
